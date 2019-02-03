@@ -1,0 +1,29 @@
+.highlights-item {
+  float: left;
+  margin: 0 0 0 2%;
+  width: 32%;
+  text-align: center;
+}
+
+.highlights-item:first-of-type {
+  margin-left: 0;
+  height: 30vh;
+}
+
+.highlights-item img {
+  display: block;
+  width: 100%;
+  margin: 0 0 5px;
+}
+
+.highlights-item p {
+  font-size: 14px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

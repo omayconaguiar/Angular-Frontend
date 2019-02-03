@@ -1,0 +1,47 @@
+ <section id="Contato">
+      <div class="container highlights center">
+      <h3>Fale conosco</h3>
+      <a href="#!" class="navbar navbar-default"><img src="../assets/chat.svg" height="40vw"></a>
+      <h6>Envie sua dúvida, reclamação ou sugestão. Em breve, retornaremos o contato.</h6>
+      <div class="container">
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Nome</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Seu nome..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Seu email..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Endereço</label>
+          </div>
+           <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Seu endereço..">
+            </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Assunto</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Escreva algo.." style="height:200px"></textarea>
+        </div>
+      </div>
+  <div class="row">
+    <button class="waves-effect waves-light btn" type="submit" [disabled]="login.invalid ||
+    passwordError">Enviar!</button>
+  </div>
+  </form>
+  </div>
+  </div>
+    </section>
